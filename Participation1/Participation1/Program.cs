@@ -40,11 +40,18 @@ namespace Participation1
             //conditional statement to to show result of flip and whether guess is correct
             if (usersGuess == randomNumber)
             {
-                Console.WriteLine("You Win");
+                Console.WriteLine($"Congrats, {usersGuessAsString} was right!");
             }
             else
             {
-                Console.WriteLine("You Lose");
+                if (usersGuess == 0)
+                {
+                    Console.WriteLine($"Sorry, Tails was the correct answer and you guessed {usersGuessAsString}");
+                }
+                else
+                {
+                    Console.WriteLine($"Sorry, Heads was the correct answer and you guessed {usersGuessAsString}");
+                }
             }
 
             Console.ReadKey(); //Prevent the application from closing until we press a key
