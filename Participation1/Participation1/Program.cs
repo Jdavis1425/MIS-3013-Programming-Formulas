@@ -14,7 +14,6 @@ namespace Participation1
             Console.WriteLine("Enter Heads or Tails >>");
             string usersGuessAsString = Console.ReadLine();
             int usersGuess;
-
             //declare our constant variables
             const int HEADS_VALUE = 0;
             const int TAILS_VALUE = 1;
@@ -26,6 +25,12 @@ namespace Participation1
             else
             {
                 usersGuess = TAILS_VALUE;
+            }
+            else
+            {
+                Console.WriteLine("Invalid entry: Please try again later");
+                Console.ReadKey();
+                return;
             }
             //generates a random number from the flip
             Random rand = new Random();
