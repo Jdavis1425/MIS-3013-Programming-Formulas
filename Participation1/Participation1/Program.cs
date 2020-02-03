@@ -22,7 +22,7 @@ namespace Participation1
             {
                 usersGuess = HEADS_VALUE;
             }
-            else
+            else if (usersGuessAsString == "Tails")
             {
                 usersGuess = TAILS_VALUE;
             }
