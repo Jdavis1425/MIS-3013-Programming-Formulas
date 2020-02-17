@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_CoinTossUntilRight", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_Summing", "Loop_Summing\Loop_Summing.csproj", "{D44883F3-C93F-4744-A69A-1981DA7E69D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{015F013E-FA1A-42D3-8728-A6F13B9D6EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D44883F3-C93F-4744-A69A-1981DA7E69D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44883F3-C93F-4744-A69A-1981DA7E69D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44883F3-C93F-4744-A69A-1981DA7E69D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015F013E-FA1A-42D3-8728-A6F13B9D6EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015F013E-FA1A-42D3-8728-A6F13B9D6EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015F013E-FA1A-42D3-8728-A6F13B9D6EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015F013E-FA1A-42D3-8728-A6F13B9D6EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
