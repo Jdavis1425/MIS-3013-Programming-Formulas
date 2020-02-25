@@ -98,15 +98,16 @@ namespace HowMuchMoneyWillISave
                     numYears++;
                     numMonths = 1; //After ran through to 12 (% 12 means divisible by 12) reset numMonths to 1
                 }
-                
+                //only complete what the question asks. This is done anything more is just extra
 
-                
+                //Output - e.g. January, year 1: Money saved so far is $380.83
+                Console.WriteLine($"Press any key to continue");
+                Console.ReadKey();
+
+
+
             }
-            //only complete what the question asks. This is done anything more is just extra
-
-            //Output - e.g. January, year 1: Money saved so far is $380.83
-            Console.WriteLine($"Press any key to continue");
-            Console.ReadKey();
+            
         } 
     }
 }
