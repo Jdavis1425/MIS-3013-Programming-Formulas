@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Participation3_1", "Partici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Participation3Practice", "Participation3Practice\Participation3Practice.csproj", "{8EF5B518-FCC8-4DD6-A153-D6B64D48A512}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Participation3_2", "Participation3_2\Participation3_2.csproj", "{292F5FB6-4174-43C9-A9F4-1993C6CFF224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8EF5B518-FCC8-4DD6-A153-D6B64D48A512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF5B518-FCC8-4DD6-A153-D6B64D48A512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF5B518-FCC8-4DD6-A153-D6B64D48A512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292F5FB6-4174-43C9-A9F4-1993C6CFF224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292F5FB6-4174-43C9-A9F4-1993C6CFF224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292F5FB6-4174-43C9-A9F4-1993C6CFF224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292F5FB6-4174-43C9-A9F4-1993C6CFF224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
