@@ -15,12 +15,14 @@ namespace Functions_Calculator
 
             double result = 0;
             string newCalculation = "";
+            double v1;
+            bool shouldAskForV1 = true;
             do
             {
                 Console.WriteLine("What type of calculation would you like to do? i.e. Addition, Subtraction, Multiplication, Division");
                 string userInput = Console.ReadLine().ToLower();
                 Console.WriteLine("Please enter two values for your calculation..");
-                double v1 = Convert.ToDouble(Console.ReadLine());
+                v1 = Convert.ToDouble(Console.ReadLine());
                 double v2 = Convert.ToDouble(Console.ReadLine());
 
                 
