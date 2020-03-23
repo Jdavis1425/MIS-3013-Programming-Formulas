@@ -19,7 +19,7 @@ namespace Palindrome
             //user input- get word or phrase
             Console.WriteLine("Please enter a word or phrase..");
             userWord = Console.ReadLine().ToLower();
-            index = userWord.Length-1; //to get index to start at last spot of input
+            index = userWord.Length-1; //to get index to start at last spot of input. index is the counting variable for this problem
             //process- determine whether palindrome or not
             /*   0  1  2    length=3, last character in word/stirng = length-1. 
              *   M  O  M
