@@ -4,21 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Participation___Rectangle_and_Circle_Classes
+namespace ParticipationOnline__Student1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            List<
-            double w, l;
-
-            w = 7;
-            l = 8;
-
-            
-
-            Console.ReadKey();
         }
     }
 }

@@ -5,7 +5,7 @@ class Rectangle
 	public double Length { get; set; }
 	public double Width { get; set; }
 
-	public Rectangle()
+	public Rectangle(double width, double length)
 	{
 		Length = 0;
 		Width = 0;
